@@ -1553,7 +1553,7 @@ if __name__ == '__main__':
               event.set()
               ts = time()
               while time() < ts + timer:
-                  logger.debug(f'{bcolors.OK.GREEN}ZieLx Attack To:{bcolors.FAIL} %s,{bcolors.OKGREEN} And Port:{bcolors.FAIL} %s,{bcolors.OKGREEN} Methods:{bcolors.FAIL} %s{bcolors.OKGREEN} PPS:{bcolors.FAIL} %s,{bcolors.OKGREEN} BPS:{bcolors.FAIL} %s / %d%%{bcolors.RESET}' %
+                  logger.debug(f'{bcolors.OKGREEN}ZieLx Attack To:{bcolors.FAIL} %s,{bcolors.OKGREEN} And Port:{bcolors.FAIL} %s,{bcolors.OKGREEN} Methods:{bcolors.FAIL} %s{bcolors.OKGREEN} PPS:{bcolors.FAIL} %s,{bcolors.OKGREEN} BPS:{bcolors.FAIL} %s / %d%%{bcolors.RESET}' %
                                (target or url.host,
                                 port or (url.port or 80),
                                 method,
